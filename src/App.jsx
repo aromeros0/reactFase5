@@ -21,8 +21,10 @@ function App() {
         <h3>REALIZADO POR</h3>
         <h4>ARMANDO ROMERO SUA</h4>
         <h4>Fase 5</h4>
+
         <h6> Enlace para ir al Proyecto</h6>
-        <a href="index.html">Click para ir al Proyecto</a>
+        <a href="inicio.html">Click para ir al Proyecto</a>
+
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
