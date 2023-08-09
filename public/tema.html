@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <h1 class="centrado">Flex Box</h1>
+    </header>
+    <nav>
+        <ul class="menu-horizontal">
+            <li> <a href="index.html"> Incio </a></li>
+            <li> <a href="audio.html"> Audio </a></li>
+            <li> <a href="tema.html"> Tema </a></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menu-aside">
+            <li> <a href="index.html"> Inicio </a></li>
+            <li> <a href="audio.html"> Audio </a></li>
+            <li> <a href="tema.html"> Tema </a></li>
+            <li> <a href="nosotros.html"> Nosotros </a></li>
+            <li> <a href="cuestionario.html"> Cuestionario </a></li>
+
+        </ul>
+    </aside>
+    <main>
+        </section>
+        <!-- Esta es seccion del Tema seleccionado  -->
+
+        <hr>
+        <section id="temaseleccionado">
+
+
+            <h3> ¿Qué es FlexBox? </h3>
+            <p>
+                Durante mucho tiempo, las únicas herramientas disponibles para crear diseños CSS y posicionar
+                elementos con buena compatibilidad entre browsers eran float y position. Sin embargo, estas
+                herramientas tienen algunas limitaciones muy frustrantes, especialmente cuando se trata de
+                responsividad. Algunas tareas que consideramos básicas en un diseño, como centrar verticalmente un
+                elemento secundario en relación con un elemento principal o hacer que los elementos secundarios
+                ocupen la misma cantidad de espacio, o que las columnas tengan el mismo tamaño independientemente de
+                la cantidad de contenido interno, fueron imposibles. o muy difícil de manejar con floats o position,
+                al menos de forma práctica y flexible. La herramienta Flexbox (de Flexible Box) fue creada para
+                hacer estas tareas más sencillas y funcionales: los secundarios de un elemento con Flexbox se pueden
+                posicionar en cualquier dirección y pueden tener dimensiones flexibles para adaptarse.
+
+
+            <p>
+
+            <h4> Elementos </h4>
+
+            <p>
+
+
+                Flexbox es un módulo completo y no una propiedad única; algunos de ellos deben declararse en el
+                contenedor (el elemento principal, que llamamos de flex container), mientras que otros deben declararse
+                en los elementos secundarios (el flex ítems). Si el diseño "estándar" se basa en las direcciones block e
+                inline, el diseño Flex se basa en direcciones de "flex flow". A continuación se muestra un diagrama de
+                la especificación, que explica la idea central detrás del diseño Flex.
+
+
+            </p>
+
+            <h4> Los ítems se distribuirán en el diseño siguiendo el eje principal o transversal. </h4>
+
+
+            <h4>Eje principal:</h4>
+            <P>
+
+                El eje principal de un flex container es el eje primario y a lo largo de él son
+                insertados los flex ítems. Precaución: El eje principal no es necesariamente horizontal; Dependerá de la
+                propiedad flex-direction (vea abajo).
+
+            </P>
+
+            <h4>Main-start | main-end:</h4>
+
+            Los flex ítems se insertan en el contenedor empezando por el lado start,
+            dirigiéndose hacia el lado end.
+
+            <h4>Tamaño Principal: </h4>
+
+            <p>
+                El ancho o alto de un flex ítem, dependiendo de la dirección del contenedor, es el
+                tamaño principal del ítem. La propiedad de tamaño principal de un flex ítem puede ser tanto width como
+                height, dependiendo de cuál esté en la dirección principal.
+
+            </p>
+
+
+            <h4>Eje transversal:</h4>
+            <p>
+                El eje perpendicular al eje principal se llama eje transversal. Su dirección depende de la dirección del
+                eje principal.
+            </p>
+
+            <h4>Cross-start | cross-end: </h4>
+
+            <p>
+                Líneas flex se llenan con ítems y se agregan al contenedor, comenzando desde el
+                lado cross start del flex container hacia el lado cross end.
+
+
+            </p>
+
+            <h4>Cross size: </h4>
+            <p>
+                El ancho o alto de un flex ítem, dependiendo de lo que haya en la dimensión transversal, es
+                el cross size del ítem. La propiedad cross size puede ser el ancho o el alto del ítem, lo que se
+                encuentre en la transversal.
+
+            </p>
+
+            Flex container es el elemento que involucra su estructura. Tu defines que un elemento es un Flex
+            Container con la propiedad display y valores flex o inline-flex.
+
+            <h4>Flex Ítem</h4>
+
+            <P>
+                Son elementos secundarios del flex container.
+            </P>
+            <h4>Ejes o Axes:</h4>
+            <P>
+                Son las dos direcciones básicas que existen en un Flex Container: main axis, o eje
+                principal, y cross axis, o eje transversal.
+
+            </P>
+
+
+
+            </p>
+
+            <h4> Propiedades del elemento principal </h4>
+
+            <p>
+                Cuando usamos el Flexbox, es muy importante saber qué propiedades se declaran en el elemento
+                principal (por ejemplo, una div que contendrá los elementos a alinear) y cuáles se declararán en los
+                elementos secundarios. A continuación, se muestran las propiedades que deben declararse utilizando
+                el elemento principal como selector (para alinear los elementos secundarios)
+
+            </p>
+
+        </section>
+
+
+    </main>
+    <footer class="centrado">
+        <br>
+        <p> Esta pagina fue desarrollada por Armando Romero Sua</p>
+        <p> Fecha 12 de Julio 2023 </p>
+       
+
+        <br>
+    </footer>
+</body>
+
+</html>

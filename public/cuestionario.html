@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cuestionario</title>
+</head>
+<body>
+
+    <body class="contenedor">
+        <header>
+            <h1 class="centrado">Flex Box</h1>
+        </header>
+        <nav>
+            <ul class="menu-horizontal">
+                <li> <a href="index.html"> Incio </a></li>
+                <li> <a href="audio.html"> Audio </a></li>
+                <li> <a href="tema.html"> Tema </a></li>
+            </ul>
+        </nav>
+        <aside>
+            <ul class="menu-aside">
+                <li> <a href="index.html"> Inicio </a></li>
+                <li> <a href="audio.html"> Audio </a></li>
+                <li> <a href="tema.html"> Tema </a></li>
+                <li> <a href="nosotros.html"> Nosotros </a></li>
+                <li> <a href="cuestionario.html"> Cuestionario </a></li>
+    
+            </ul>
+        </aside>
+
+
+
+    <h1> Responde las siguientes preguntas</h1>
+    <div>
+        <form name="formulario">
+            <h3>1. ¿Con que propiedad en CSS se activa el Flexbox?:</h3>
+            <input type="radio" name="r1" value="a"> a. display <br>
+            <input type="radio" name="r1" value="b"> b. margin <br>
+            <input type="radio" name="r1" value="c"> c. backgroud <br>
+
+            <h3>2. ¿Cuál es un valor predeterminado de la dirección flexible de la propiedad Flexbox?:</h3>
+            <input type="radio" name="r2" value="a"> a. row <br>
+            <input type="radio" name="r2" value="b"> b. reverse <br>
+            <input type="radio" name="r2" value="c"> c. column <br>
+
+            <h3>3. ¿Cual es la Propiedad que define la alineacion de los Item a lo largo del eje principal?:</h3>
+            <input type="radio" name="r3" value="a"> a. Justify-content <br>
+            <input type="radio" name="r3" value="b"> b. Flex-Star <br>
+            <input type="radio" name="r3" value="c"> c. Space-evenly <br>
+
+            <h3>4. ¿Si deseo los items de un contenedor de manera horizontal y que se desborden de manera invertida las propiedades flex-direction y flex-wrap deben tener los siguientes valores respectivamente?:</h3>
+            <input type="radio" name="r4" value="a"> a. row , wrap-reverse <br>
+            <input type="radio" name="r4" value="b"> b. column , wrap <br>
+            <input type="radio" name="r4" value="c"> c. row , nowrap <br>
+
+            <h3>5. ¿Si tengo un contenedor con la propiedad flex-wrap por defecto que sucede?:</h3>
+            <input type="radio" name="r5" value="a"> a. Se evitaria el desbortamiento de los elementos dentro de este contenedor. <br>
+            <input type="radio" name="r5" value="b"> b. Obtendriamos un contenedor flexbox multilinea. <br>
+            <input type="radio" name="r5" value="c"> c. Los elementos del contenedor se desbordan permitiendo que los elementos tengan su tamaño inicial. <br>
+
+
+            <input type="button" value="enviar" onclick="procesarRespuestas()">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+<footer class="centrado">
+    <br>
+    <p> Esta pagina fue desarrollada por Armando Romero Sua</p>
+    <p> Fecha 12 de Julio 2023 </p>
+   
+</html>
